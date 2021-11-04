@@ -2,7 +2,7 @@
 const request = require('request')
 
 // Constants
-const clientId = '0c7c8228-98ff-4ed8-ae28-af41852ba6ab'
+const clientId = '9dfe7fad-9752-4145-9c53-f9b36c7ea261'
 
 const tokenUri = 'https://login.microsoftonline.com/consumers/oauth2/v2.0/token'
 const authXBLUri = 'https://user.auth.xboxlive.com/user/authenticate'
@@ -78,7 +78,7 @@ function getXSTSToken(XBLToken) {
         
                     case 2148916238: 
                         reject({
-                            message: 'Since you are not yet 18 years old, an adult must add you to a family in order for you to use the ArdacraftLauncher!'
+                            message: 'Since you are not yet 18 years old, an adult must add you to a family in order for you to use the best launcher, AstroLauncher!'
                         })
                         return
                 
